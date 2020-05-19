@@ -20,4 +20,4 @@ jobs:
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: yarn add semantic-release
+        run: npx semantic-release
